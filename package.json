@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bulid": "tsc -p .",
-    "start": "env-cmd ./config/dev.env node server/index.ts",
+    "start": "env-cmd ./config/dev.env nodemon server/index.ts",
     "dev": "env-cmd ./config/dev.env nodemon server/index.ts"
   },
   "keywords": [],
